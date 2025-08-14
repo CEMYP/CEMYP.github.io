@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title>Logo CEMYP opción 3 (sin fuentes)</title>
+  <desc>Tercer opción de logo cuadrado para "cemyp" construida solo con paths y trazos, sin depender de tipografías.</desc>
+  <!-- Fondo -->
+  <rect x="64" y="64" width="896" height="896" rx="120" fill="#111827"/>
+  <!-- Grupo de letras construidas con paths -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="72" stroke-linecap="round" stroke-linejoin="round">
+    <!-- c -->
+    <path d="M210,512
+             m140,0
+             a140,140 0 1 1 0,-0.1" />
+    <!-- e: arco + barra -->
+    <g transform="translate(330,372)">
+      <path d="M140,140
+               m140,0
+               a140,140 0 1 1 -0.1,0" />
+      <path d="M60,140 H280" />
+    </g>
+    <!-- m -->
+    <g transform="translate(600,420)">
+      <path d="M0,260 V60
+               a60,60 0 0 1 120,0 V180
+               M120,60
+               a60,60 0 0 1 120,0 V260" />
+    </g>
+    <!-- y -->
+    <g transform="translate(840,420)">
+      <path d="M0,60 L80,160" />
+      <path d="M160,60 L80,160 V260" />
+    </g>
+    <!-- p (colocada superpuesta a la derecha del todo, usando recorte para ajustarse al cuadro) -->
+    <g transform="translate(940,420)">
+      <path d="M0,260 V60" />
+      <path d="M0,60 H60
+               a70,70 0 1 1 0,140 H0" />
+    </g>
+  </g>
+</svg>
