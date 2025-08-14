@@ -1,5 +1,62 @@
+html{
+	height: 100vh;
+	width: 100vw;
+	margin-top: -2vh;
+}
+body{
+	margin: 0px;
+	margin-top: 2vh;
+	height: 110vh;
+	width: 100vw;
+}
+header {
+	background-color: greenyellow;
+	margin: 0px;
+	align-content: center;
+	align-items: center;
+	align-self: center;
+	position: sticky;
+	top: 0;
+}
 header img {
-	height: 5vh;
-	width: 5vh;
-	border: 0px;
+	height: 10vh;
+	width: 10vh;
+	
+}
+header ul{
+	display: flex;
+	width: 100%;
+	padding: 0px;
+	justify-content: center;
+	height: 10vh;
+	margin: 0px;
+	background-color: greenyellow;
+}
+header li {
+	width: 25%;
+	position: relative;
+	display: flex;
+	flex-direction: column; 
+	justify-content: center;
+	text-align: center;
+	height: 10vh;
+	margin: 0px;
+	border:1px;
+	border-color:black ;
+}
+header li ul {
+	display: none;
+}
+header li:hover ul{
+	display: block;
+	position: absolute;
+	top: 10vh;
+	width: 100%;
+}
+header li:hover ul li{
+	
+	width: 100%;
+}
+div{
+	font-size: 4vh;
 }
